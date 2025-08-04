@@ -22,11 +22,11 @@ namespace proyecto_de_visualstudio
             double horasTrabajadas = Convert.ToDouble(Console.ReadLine());
             double salarioSemanal = costoPorHora * horasTrabajadas;
             Console.WriteLine($"Su salario semanal es de: {salarioSemanal}" );
-           
-           
-            Console.WriteLine("presione cualquier tecla`para salir");
+
+
+            Console.WriteLine("Presione ls tecla ENTER para salir");
             Console.ReadLine();
-            
+
         }
     }
 }
